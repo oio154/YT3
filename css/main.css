@@ -16,5 +16,39 @@
  	    border: 0;
  	    margin: 0;
  	    color: #D8D8D8;
+ 	    display: inline-block;
+ 	    font-size: 2em;
  	}
+ 	
+ 	div#window1{
+ 		position: absolute;
+ 		top: 1em;
+ 		left: 1em;
+ 		right: 1em;
+ 		bottom: 1em;
+ 		border: 1px solid silver;
+ 		padding: .5em;
+ 		margin: 0;
+ 		background: white;
+ 		-webkit-border-radius: 5px 5px 5px 5px;
+ 		border-radius: 5px 5px 5px 5px;
+ 		-webkit-box-shadow:inset 10px -27px 160px 25px rgba(200,200,200,0.3);
+ 		box-shadow: inset 10px -27px 160px 25px rgba(200,200,200,0.3);
+ 		display: none;
+ 	}
+ 	
+	header .menu-ico {
+		display: block;
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.short-bold-line {
+		background: white;
+		height: 4px;
+		margin: 4px;
+	}
+
  }
