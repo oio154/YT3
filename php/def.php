@@ -3,7 +3,7 @@
 
 
 
-
+define ("TEACHERPASSWORD","ZZA");
 
 
 

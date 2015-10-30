@@ -6,11 +6,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet"  href="css/main.css?v=43">
 <title><?php printTitle(); ?></title>
 </head>
 
 <body>
-Content of the document......
+<header><?php include('header.php'); ?></header>
 </body>
 
 </html>
